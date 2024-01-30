@@ -31,3 +31,10 @@ ENV_BOT_TOKEN = "{your api bot token you got from @botfather}"
 (*Bot will automatically reduce spaces and capital letters so for example: Чет ыреЧаСа also will works for him*) 
 
 **he will respond with any location that is 4 am right now by fetching timezone**
+
+## Extra development run options
+
+- `npm run liveLogs` for running remote wrangler logging into your terminal
+- `npm run devdeploy` for deploying project to cloudflare and running logging afterwards
+- `npm run deploy` for simple deploy project to cloudflare
+- `npm run dev` for running project on local machine
