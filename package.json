@@ -1,0 +1,18 @@
+{
+  "name": "tg-where-are-you-at-4-am",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "devdeploy": "wrangler deploy && wrangler tail",
+    "liveLogs": "wrangler tail"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1"
+  }
+}
